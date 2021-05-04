@@ -62,7 +62,7 @@ function speakPosititve() {
    synth.speak(utterThis);
 }
 
-function speakPosititve() {
+function speakNegative() {
    var synth=window.speechSynthesis;
    speak_data= obj+" not found";
    var utterThis= new SpeechSynthesisUtterance(speak_data);
